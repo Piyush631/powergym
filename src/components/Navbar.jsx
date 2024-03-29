@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div className=' relative flex gap-16 p-8'>
       <div className='logo'>
-        <Link to="/"><img src='/public/logo.png'/></Link>
+        <Link to="/"><img src='logo.png'/></Link>
 
       </div>
       <div className=' flex gap-12 items-center text-xl max-sm:gap-8'> 
