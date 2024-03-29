@@ -24,7 +24,7 @@ function ExerciseDetails({exercises,setExercises,bodypart}) {
   return (
    
     <div id="exercises" className='mt-24 p-8 px-24 '>
-      <div className='text-4xl font-semibold'>Showing Result</div>
+      <div className='text-xl sm:text-4xl font-semibold'>Showing Result</div>
       <div className='flex gap-24 justify-center flex-wrap '>
       {exercises.map((exercise,index)=>(
       <Cards key={index} exercise={exercise}/>

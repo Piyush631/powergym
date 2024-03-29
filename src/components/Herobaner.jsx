@@ -16,7 +16,7 @@ function Herobaner() {
         </div>
       </div>
       <div className='absolute flex hidden xl:flex -top-9 left-[45%]'>
-        <img src="/public/mainpic.png" className='h-[75%] w-[90%] '  alt="" />
+        <img src="mainpic.png" className='h-[75%] w-[90%] '  alt="" />
       </div>
     
     </div>
