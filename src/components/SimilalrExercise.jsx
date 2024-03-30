@@ -9,6 +9,7 @@ function SimilalrExercise({similarexercise}) {
        {similarexercise?.slice(0,3).map((exercise,index)=>(
        <div className='flex'>
  <Cards key={index} exercise={exercise}/>
+        
        </div>
      
    
