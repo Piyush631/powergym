@@ -8,6 +8,7 @@ import Navbar from './components/Navbar'
 
 import './App.css';
 import SpecificExerciseDetails from './Pages/SpecificExerciseDetails'
+import Loader from './components/Loader'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
        <Route path="/exercise/:id" element={ <SpecificExerciseDetails/>}/>
       </Routes>
       <Footer/>
+    
      
     </div>
   )

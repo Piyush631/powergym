@@ -1,15 +1,17 @@
 import React from 'react'
-import Cards from './Cards'
+import Loader from './Loader'
+import SimilarCard from './SimilarCard'
 
 function SimilalrExercise({similarexercise}) {
+  if (!similarexercise.length) return <Loader/>;
   return (
     <div className=' mt-12'>
          <h1 className='text-sm sm:text-5xl sm:font-semibold'>Similar <span className='text-red-500'>Target Muscle</span> exercise </h1>
          <div className='flex flex-wrap justify-between mt-12 gap-12' >
-       {similarexercise?.slice(0,3).map((exercise,index)=>(
+     s  {similarexercise?.slice(0,3).map((exercise,index)=>(
        <div className='flex'>
- <Cards key={index} exercise={exercise}/>
-        
+ 
+        <SimilarCard  key={index} exercise={exercise}/>
        </div>
      
    

@@ -1,6 +1,8 @@
 import React from 'react'
+import Loader from './Loader'
 
 function Youtubevideo({youtubeexercise,exerciseDetails}) {
+  if (!youtubeexercise.length) return <Loader/>;
     const{name} =exerciseDetails;
   return (
   
@@ -8,7 +10,8 @@ function Youtubevideo({youtubeexercise,exerciseDetails}) {
         <div>
             <h1 className='text-sm sm:text-5xl sm:font-semibold'>Watch <span className='text-red-500'>{name}</span> exercise video</h1>
         </div>
-        <div className='flex  gap-24 ml-2 flex-wrap mt-6'>
+        <div className='flex  gap-24 ml-2
+         flex-wrap mt-6'>
         { youtubeexercise?.slice(0,5).map((item,index)=>(
           <a
           key={index}

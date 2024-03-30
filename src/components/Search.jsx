@@ -51,7 +51,7 @@ function Search({setExercises,bodypart,setBodypart}) {
             <button className='bg-red-500 h-12 w-32 rounded-md text-white text-xl font sans min-[940px]:w-[24]' onClick={handleSearch}>Search</button>
         </div>
     </div>
-<HorizontalScrollBar data={bodyparts} bodypart={bodypart} setBodypart={setBodypart}/>
+<HorizontalScrollBar data={bodyparts}  bodyParts bodypart={bodypart} setBodypart={setBodypart}/>
     </div>
   )
 }

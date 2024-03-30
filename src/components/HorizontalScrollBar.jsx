@@ -3,9 +3,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Bodycomp from './Bodycomp'
+import Cards from './Cards';
 
 
-function HorizontalScrollBar({data,bodypart,setBodypart}) {
+function HorizontalScrollBar({data,bodyParts,bodypart,setBodypart}) {
   
 
   const settings = {
@@ -25,7 +26,8 @@ function HorizontalScrollBar({data,bodypart,setBodypart}) {
         title={item.id || item}
         key={item.id || item}  className='m-4' > 
 
-  <Bodycomp  item={item} Bodypart={bodypart} setBodypart={setBodypart}/>
+  {bodyParts ? <Bodycomp  item={item} Bodypart={bodypart} setBodypart={setBodypart}/>: <Cards exercise={item}/>}
+  
 
         </div>
   
