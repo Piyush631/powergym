@@ -24,7 +24,7 @@ function HorizontalScrollBar({data,bodyParts,bodypart,setBodypart}) {
       {data.map((item)=>(
         <div  itemID={item.id || item} 
         title={item.id || item}
-        key={item.id || item}  className='m-4' > 
+        key={item.id || item}  className='m-3' > 
 
   {bodyParts ? <Bodycomp  item={item} Bodypart={bodypart} setBodypart={setBodypart}/>: <Cards exercise={item}/>}
   

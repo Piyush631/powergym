@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 function SimilarCard ({exercise}) {
   return (
-    <a  className='border-t-4 border-red-600 bg-white rounded-xl'>
+    <a  className='border-t-4 border-red-600 bg-white rounded-xl w-[60vh]'>
      
 
        

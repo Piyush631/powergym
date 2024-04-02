@@ -4,9 +4,9 @@ function Herobaner() {
   return (
     <div>
          <div className='flex gap-4'>
-      <div className=' p-32 pl-12 flex flex-col gap-4 font-sans '> 
-        <p className='text-2xl text-[#FF2625] font-bold max-[640px]:font-semibold' >Fitness Club</p>
-        <div className='text-5xl font-semibold leading-normal max-[640px]:text-2xl'>
+      <div className=' p-32 pl-24 flex flex-col gap-4 font-sans '> 
+        <p className='text-3xl text-[#FF2625] font-bold max-[640px]:font-semibold' >Fitness Club</p>
+        <div className='text-5xl font-semibold leading-normal max-[640px]:text-3xl'>
           <p>Sweat,Smile</p>
           <p>And Repeat</p>
         </div>
