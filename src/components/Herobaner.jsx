@@ -3,10 +3,10 @@ import React from 'react'
 function Herobaner() {
   return (
     <div>
-         <div className='flex gap-4'>
+         <div className='flex gap-4 w-screen'>
       <div className=' p-32 pl-24 flex flex-col gap-4 font-sans '> 
         <p className='text-3xl text-[#FF2625] font-bold max-[640px]:font-semibold' >Fitness Club</p>
-        <div className='text-5xl font-semibold leading-normal max-[640px]:text-3xl'>
+        <div className='text-3xl font-semibold sm:leading-normal sm:text-6xl'>
           <p>Sweat,Smile</p>
           <p>And Repeat</p>
         </div>
