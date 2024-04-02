@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 function Cards({exercise}) {
   return (
-    <Link to={`exercise/${exercise.id}`} className='border-t-4 border-red-600 bg-white rounded-xl sm:w-[60vh] w-[30vh]'>
+    <Link to={`exercise/${exercise.id}`} className='  border-t-4 border-red-600 bg-white rounded-xl w-[60vh]'>
      
 
        
